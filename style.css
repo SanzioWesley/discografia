@@ -1,0 +1,32 @@
+/* html,
+body {
+    height: 100%;
+    width: 100%;
+} */
+
+body {
+    background: url('imagens/background.png');
+}
+
+
+/* div img {
+    opacity: 0.2;
+} */
+
+.form-inline {
+    text-align: center;
+}
+
+.btn-custom {
+    border-radius: 500px;
+}
+
+.btn-search {
+    width: 600px;
+}
+
+.btn-blue {
+    color: white;
+    background-color: rgb(109, 109, 245);
+    width: 200px;
+}
