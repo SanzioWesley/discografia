@@ -24,21 +24,24 @@
 
             <div>
                 <ul class="nav navbar-nav navbar-right">
-                    <h1>Discografia</h1>
+                    <a href="criar_album.php">
+                        <h1 style="color: black;">Discografia</h1>
+                    </a>
                 </ul>
             </div>
 
         </div>
     </nav>
-    </div>
+
 
     <div class="navbar">
         <form class="form-inline">
             <h3 style="padding-right: 400px;">Digite uma palavra passe</h3> <br>
-            <input class="btn btn-custom btn-search btn-lg" type="search"  aria-label="Pesquisar">
+            <input class="btn btn-custom btn-search btn-lg" type="search" aria-label="Pesquisar">
             <button class="btn btn-custom btn-blue btn-lg" type="submit">Procurar</button>
         </form>
     </div>
+
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
