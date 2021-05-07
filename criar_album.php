@@ -36,7 +36,7 @@
         <div class="col-md-4">
             <h3>Criar Álbum</h3>
             <br />
-            <form method="post" action="" id="formCriarAlbun">
+            <form method="post" action="registra_album.php" id="formCriarAlbun">
                 <div class="form-group">
                     <input type="text" class="form-control" id="album" name="album" placeholder="Álbum" required="requiored">
                 </div>
