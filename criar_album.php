@@ -38,7 +38,11 @@
             <br />
             <form method="post" action="registra_album.php" id="formCriarAlbun">
                 <div class="form-group">
-                    <input type="text" class="form-control" id="album" name="album" placeholder="Álbum" required="requiored">
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="nome" required="requiored">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="ano" name="ano" placeholder="ano" required="requiored">
                 </div>
 
                 <button type="submit" class="btn btn-success form-control">Criar</button>
