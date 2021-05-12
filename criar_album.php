@@ -46,13 +46,14 @@
                 </div>
 
                 <button type="submit" class="btn btn-success form-control">Criar</button>
-                <button type="submit" class="btn btn-default form-control">
-                <a href="exibir_album.php">
-                       Exibir
-                    </a></button>
+
                 <!-- <button type="submit" class="btn btn-primary form-control">Atualizar</button>
                 <button type="submit" class="btn btn-danger form-control">Excluir</button> -->
             </form>
+            <button type="submit" class="btn btn-default form-control">
+                <a href="exibir_album.php">
+                    Exibir
+                </a></button>
         </div>
     </div>
 
