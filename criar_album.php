@@ -36,7 +36,7 @@
         <div class="col-md-4">
             <h3>Criar Álbum</h3>
             <br />
-            <form method="post" action="registra_album.php" id="formCriarAlbun">
+            <form method="get" action="registra_album.php" id="formCriarAlbum">
                 <div class="form-group">
                     <input type="text" class="form-control" id="nome" name="nome" placeholder="nome" required="requiored">
                 </div>
@@ -46,6 +46,10 @@
                 </div>
 
                 <button type="submit" class="btn btn-success form-control">Criar</button>
+                <button type="submit" class="btn btn-default form-control">
+                <a href="exibir_album.php">
+                       Exibir
+                    </a></button>
                 <!-- <button type="submit" class="btn btn-primary form-control">Atualizar</button>
                 <button type="submit" class="btn btn-danger form-control">Excluir</button> -->
             </form>
